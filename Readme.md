@@ -13,18 +13,25 @@ Built using Python, scikit-learn, and a simple Flask-based web interface.
 
 ---
 
-## 📁 Project Structure
+## 🧰 Tech Stack
 
-├── Artifacts/ # Dataset + exported ML model
-├── Notebooks/ # Jupyter notebooks (training, evaluation, EDA)
-├── Static/ # CSS and static assets for the web app
-├── templates/ # HTML templates for Flask UI
-├── anaconda_projects/db/ # Dataset and config files
-├── app.py # Main Flask app
-├── helper.py # ML pipeline + model loading helpers
-├── requirements.txt # All project dependencies
-└── README.md # Project documentation
+### **Frontend**
+- HTML5  
+- CSS3 (in `/Static` folder)
 
+### **Backend**
+- Python 3  
+- Flask 
+
+### **Machine Learning**
+- scikit-learn  
+- NLP preprocessing (tokenization, vectorization)  
+- Pipelines & model persistence  
+
+### **Tools / Environment**
+- Jupyter Notebook (model training & experimentation)
+- Git & GitHub  
+- VS Code 
 
 ---
 
